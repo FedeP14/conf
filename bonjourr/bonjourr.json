@@ -1,0 +1,179 @@
+{
+  "about": {
+    "browser": "firefox",
+    "version": "19.2.4"
+  },
+  "showall": true,
+  "lang": "it",
+  "dark": "enable",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "",
+  "pagegap": 1,
+  "pagewidth": 1600,
+  "time": true,
+  "main": true,
+  "dateformat": "eu",
+  "background_blur": 0,
+  "background_bright": 0.8,
+  "background_type": "local",
+  "quicklinks": false,
+  "syncbookmarks": null,
+  "textShadow": 0.2,
+  "announcements": "off",
+  "review": -1,
+  "css": "",
+  "hide": {
+    "greetings": false,
+    "settingsicon": true
+  },
+  "linkstyle": "large",
+  "linknewtab": false,
+  "linksrow": 6,
+  "linktabs": {
+    "active": false,
+    "selected": 0,
+    "titles": [
+      ""
+    ]
+  },
+  "clock": {
+    "size": 1.5,
+    "ampm": false,
+    "analog": false,
+    "seconds": true,
+    "face": "none",
+    "style": "round",
+    "timezone": "auto"
+  },
+  "unsplash": {
+    "every": "pause",
+    "collection": "",
+    "lastCollec": "evening",
+    "pausedImage": {
+      "city": null,
+      "url": "https://images.unsplash.com/photo-1578553950095-7de12c433a50?ixid=M3w4ODczOHwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzU4MzI3M3w&ixlib=rb-4.0.3&w=3440&h=1440&dpr=1&auto=format&q=75&fit=crop",
+      "link": "https://unsplash.com/photos/brown-cabin-in-forest-HdgnB9mo_-E",
+      "username": "alekskuprfilmz",
+      "name": "ALEKSEY KUPRIKOV",
+      "country": null,
+      "color": "#262626",
+      "exif": {
+        "name": "Panasonic, DMC-G85",
+        "make": "Panasonic",
+        "model": "DMC-G85",
+        "exposure_time": "3.2",
+        "aperture": "3.5",
+        "focal_length": "12.0",
+        "iso": 100
+      }
+    },
+    "time": 1717832672606
+  },
+  "weather": {
+    "ccode": "IT",
+    "city": "Milan",
+    "unit": "metric",
+    "provider": "https://www.meteoam.it/it/meteo-citta/milano",
+    "moreinfo": "custom",
+    "forecast": "auto",
+    "temperature": "actual",
+    "geolocation": "approximate"
+  },
+  "notes": {
+    "on": false,
+    "width": 40,
+    "opacity": 0.1,
+    "align": "left",
+    "text": "## TO DO\n\nMattina:\n\n[ ] \n[ ] \n\n\n\n\n\nPausa prazo:\n\n[ ] \n\n\n\nPomeriggio:\n\n[ ] \n[ ] "
+  },
+  "searchbar": {
+    "on": true,
+    "width": 60,
+    "opacity": 0.1,
+    "newtab": false,
+    "suggestions": true,
+    "engine": "ddg",
+    "request": "",
+    "placeholder": "Search"
+  },
+  "quotes": {
+    "on": true,
+    "author": true,
+    "type": "classic",
+    "frequency": "day",
+    "last": 1721368459749
+  },
+  "font": {
+    "family": "JetBrains Mono",
+    "system": true,
+    "size": "14",
+    "weight": "400",
+    "weightlist": [
+      "300",
+      "400",
+      "600",
+      "700",
+      "800"
+    ]
+  },
+  "move": {
+    "selection": "single",
+    "layouts": {
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {}
+      },
+      "double": {
+        "grid": [
+          [
+            "time",
+            "."
+          ],
+          [
+            "main",
+            "."
+          ],
+          [
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    }
+  }
+}

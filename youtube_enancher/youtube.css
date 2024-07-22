@@ -1,0 +1,96 @@
+/* Cambia il tema di YouTube utilizzando la palette di colori Atom One Dark */
+:root {
+    --background: #21252b;
+    --foreground: #abb2bf;
+    --primary: #61afef;
+    --secondary: #e06c75;
+    --tertiary: #98c379;
+    --quaternary: #e5c07b;
+    --accent: #c678dd;
+    --selection: #528bff;
+    --comment: #5c6370;
+}
+
+body {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;
+}
+
+/* Barra di navigazione */
+#container, ytd-masthead {
+    background-color: var(--background) !important;
+}
+
+/* Colore del testo nei link */
+a, a:hover, a:visited, a:active {
+    color: var(--primary) !important;
+}
+
+/* Schede dei video */
+ytd-rich-item-renderer, ytd-rich-grid-renderer {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;
+}
+
+/* Descrizioni dei video */
+#video-title {
+    color: var(--primary) !important;
+}
+
+#description-text, .yt-simple-endpoint.style-scope.ytd-video-renderer {
+    color: var(--foreground) !important;
+}
+
+/* Colore del pulsante di iscrizione */
+ytd-subscribe-button-renderer {
+    color: var(--foreground) !important;
+}
+
+/* Colore dei commenti */
+ytd-comment-renderer {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;
+    border-top: 1px solid var(--comment) !important;
+}
+
+#content-text {
+    color: var(--foreground) !important;
+}
+
+/* Pulsanti di azione (like, dislike, share) */
+ytd-toggle-button-renderer {
+    color: var(--primary) !important;
+}
+
+/* Barra di progresso del video */
+.ytp-progress-bar {
+    background-color: var(--primary) !important;
+}
+
+/* Tooltip */
+.ytp-tooltip {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;
+}
+
+/* Modale */
+#modal-dialog, .ytp-modal {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;
+}
+
+/* Vari */
+#search-icon-legacy {
+    color: var(--primary) !important;
+}
+
+#input, #search-form {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;
+}
+
+ytd-guide-section-renderer {
+    background-color: var(--background) !important;
+    color: var(--foreground) !important;
+    border-bottom: 1px solid var(--comment) !important;
+}
